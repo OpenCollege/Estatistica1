@@ -3,4 +3,4 @@ Cursada em 2018-1, com o professor José Caleffi
 
 ### Tabelas de contingência 
 
-![equation](http://latex.codecogs.com/gif.download?%5Cfrac%7BP%28A%29%7D%7BP%28B%29%7D)  
+<img src="https://latex.codecogs.com/gif.latex?\frac{P(A)}{P(B)}" title="\frac{P(A)}{P(B)}" />
