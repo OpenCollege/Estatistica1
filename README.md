@@ -1,5 +1,5 @@
-# Estatistica1
-Cursada em 2018-1, com o professor José Caleffi
+# Estatistica1 
+##### 2018-1 - professor José Caleffi
 
 ### Tabelas de contingência 
 
@@ -29,7 +29,7 @@ Probabilidade de perder (1 em 3 casos):
 Probabilidade de não-perder (2 em 3 casos):  
 ![2/3](https://latex.codecogs.com/gif.latex?Q%20%3D%20%5Cfrac%7B2%7D%7B3%7D)
 
-PxPxPxP => 1/3 x 1/3 x 1/3 x 1/3  => 1/81 => 0.01234 => 1.2345 %
+<a href="https://www.codecogs.com/eqnedit.php?latex=P&space;=&space;\frac{1}{3}&space;\cdot&space;\frac{1}{3}&space;\cdot&space;=&space;(\frac{1}{3})^{4}&space;=&space;0.01234&space;=&space;1.2345&space;\%" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P&space;=&space;\frac{1}{3}&space;\cdot&space;\frac{1}{3}&space;\cdot&space;=&space;(\frac{1}{3})^{4}&space;=&space;0.01234&space;=&space;1.2345&space;\%" title="P = \frac{1}{3} \cdot \frac{1}{3} \cdot = (\frac{1}{3})^{4} = 0.01234 = 1.2345 \%" /></a>
 
 ### Ex: Em uma prova com 50 questões, com 5 alternativas em cada questão, e apenas 1 correta:
 #### Qual a chance de acertar todas as perguntas?
@@ -48,6 +48,10 @@ PxPxPxP => 1/3 x 1/3 x 1/3 x 1/3  => 1/81 => 0.01234 => 1.2345 %
 | 3 | X | 3 | 3 | 3 |
 | X | 3 | 3 | 3 | 3 |
 
+P = (1/6) ; Q = (5/6)  
+P(x=4) = COMBIN(5,4) * (1/6) ^4 * (5/6) ^(5-4)  
+P(x=4) = 0.003215020576  
+
 ## Formula 
 <a href="https://www.codecogs.com/eqnedit.php?latex=C_{N_{1}}_{R}&space;=&space;C&space;_{N}^{R}&space;=&space;\binom{N}{R}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_{N_{1}}_{R}&space;=&space;C&space;_{N}^{R}&space;=&space;\binom{N}{R}" title="C_{N_{1}}_{R} = C _{N}^{R} = \binom{N}{R}" /></a>
 
@@ -55,3 +59,5 @@ PxPxPxP => 1/3 x 1/3 x 1/3 x 1/3  => 1/81 => 0.01234 => 1.2345 %
 
 ### O percentual de inadimpletes é de 5% dente 10 clientes, determinar a probabilidade de que:
 #### 5 sejam inadimplentes
+P = 0,05 ; Q = 0,95 ; n = 10 ; P(x=5) = COMBIN(10,5) * (0.05) ^5 * (0.095) ^(10-5)  
+P(X=5) = 0.0000000006093524883  
