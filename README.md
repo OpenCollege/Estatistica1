@@ -3,18 +3,12 @@
 
 ### Tabelas de contingência 
 
-<img src="https://latex.codecogs.com/gif.latex?\frac{P(A)}{P(B)}" title="\frac{P(A)}{P(B)}" />
-![image](https://latex.codecogs.com/gif.latex?\frac{P(A)}{P(B)})
 
 |       | Vegano | Vegetariano | Carnivoro | TOTAL |
 |-------|--------|-------------|-----------|-------|
 |       | 400    | 500         | 7100      | 8000  |
 |       | 350    | 700         | 5950      | 7000  |
 | TOTAL | 750    | 1200        | 13050     | 15000 |
-
-
-[ref1](https://github.com/STAT545-UBC/Discussion/issues/102)
-[ref2](https://github.com/github/markup/issues/897)
 
 
 # Distribuição Discreta de Probabilidade BINOMIAL 
@@ -61,3 +55,7 @@ P(x=4) = 0.003215020576
 #### 5 sejam inadimplentes
 P = 0,05 ; Q = 0,95 ; n = 10 ; P(x=5) = COMBIN(10,5) * (0.05) ^5 * (0.095) ^(10-5)  
 P(X=5) = 0.0000000006093524883  
+
+
+[ref1](https://github.com/STAT545-UBC/Discussion/issues/102)
+[ref2](https://github.com/github/markup/issues/897)
